@@ -4,9 +4,11 @@ a{
     text-decoration: none;
     color: white;	
 }
-	
 p{
-    font-family: "Lucida Console", Courier, monospace;
+	font-family: "Lucida Console", Courier, monospace;
+}	
+#center{
+    
     color: white;
 	
 }
@@ -61,7 +63,133 @@ p{
     margin: 50px;
     background-image: url("https://sudospaces.com/babycuatoi/2020/01/banner-babycuatoi-2.jpg");
 }
-.active-pink-4 input[type=text]:focus:not([readonly]) {
-	border: 1px solid #f48fb1;
-	box-shadow: 0 0 0 1px #f48fb1;
-  }
+.product{
+margin:50px;
+
+}
+.product::after{
+	clear: both;
+	content: "";
+	display: table;
+}
+.product .product-1{
+	float: left;
+	width: 33.33333333%;
+
+
+}
+.product .product-2{
+	float: left;
+	width: 33.33333333%;
+
+}
+.product .product-3{
+	float: left;
+	width: 33.33333333%;
+
+}
+#nav .nav-header{
+	overflow: auto;
+	margin-bottom: 30px;;
+
+}
+
+#nav .nav-header .title{
+	text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+	font-size: 24px;
+	margin-bottom: 50px;;
+
+}
+
+#nav .nav-header .clearfix{
+	margin-top: 20px;
+}
+#nav .nav-header .clearfix::after{
+	display: table;
+	clear: both;
+	content: "";
+
+}
+#nav .nav-header .clearfix .nav-header-1{
+	width: 33.33333333%;
+    float: left;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+#nav .nav-header .clearfix .nav-header-1 .icon{
+	width: 100px;
+    margin: 0 auto;
+}
+#nav .nav-header .clearfix .nav-header-1 .subtitle{
+	text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+#nav .nav-header .clearfix .nav-header-1 p{
+	line-height: 23px;
+	text-align: center;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-family: sans-serif;
+    vertical-align: baseline;
+    background: transparent
+
+}
+
+
+
+
+
+
+.footer{
+	overflow: auto;
+	background-color:#01519a;
+	margin-bottom: 5px;
+	padding:15px;
+	clear: both;
+    
+}
+.footer .list-shop-systems .list-shop-systems-1{
+	float: left;
+	width: 33.33333333%;
+	border-right: 1px solid #323c3f;
+	line-height: 1.7;
+	position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+	box-sizing: border-box;
+
+
+}
+.footer .list-shop-systems .list-shop-systems-2{
+	float: left;
+	width: 33.33333333%;
+	padding-left:  15px;
+	padding-right: 15px;
+	border-right: 1px solid #323c3f;
+	line-height: 1.7;
+	box-sizing: border-box;
+}
+
+.footer .list-shop-systems .list-shop-systems-3{
+	float: left;
+	width: 33.33333333%;
+	padding-left:  15px;
+	padding-right: 15px;
+	line-height: 1.7;
+	box-sizing: border-box;
+
+}
+
+
+
+
+

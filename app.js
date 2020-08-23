@@ -28,22 +28,6 @@ app.get('/insert',function (res, res){
 })
 
 
-
-/* 
-var MongoClient = require('mongodb').MongoClient;
-var url = "mongodb+srv://vanhien:hienvan123@cluster0.7hfpc.mongodb.net/test";
-
-app.post('/',async (req,res)=>{
-    let inputName = req.body.txtName;
-    let inputWeight = req.body.txtWeight;
-    let newStudent = {name : inputName, weigh:inputWeight};
-
-    let client= await MongoClient.connect(url);
-    let dbo = client.db("StudentDB");
-    await dbo.collection("Student").insertOne(newStudent);
-    res.redirect('/');
-})
-  */
 var bodyParser = require("body-parser");
 app.use(bodyParser.urlencoded({ extended: false }));
 
@@ -60,7 +44,6 @@ app.post('/doRegister', async (req, res) => {
         name: inputName,
         email: inputEmail,
     }
-    //check data before writing to file
     if (inputName.length < 4) {
         let errorModel = {
             nameError: "Ten phai lon hon 3 ky tu!"
